@@ -4,7 +4,7 @@ body{
 }
 
 hr{
-	border-top: 2px solid #cbcaca;
+	border-top: 1px solid #ebebeb;
 	margin-top:3%;
 }
 
@@ -248,7 +248,7 @@ h1{
 
 .ab p{
 	display: inline-block;
-    margin-left: 56px;
+    margin-left: 25px;
     font-size: 15px;
 }
 
@@ -574,6 +574,7 @@ h1{
 	padding-left:10%;
 	padding-right:10%;
 	padding-top:5%;
+	margin-bottom: 17%;
 }
 
 .ww{

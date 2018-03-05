@@ -4,7 +4,7 @@ body{
 }
 
 hr{
-	border-top: 2px solid #cbcaca;
+	border-top: 1px solid #ebebeb;
 	margin-right:10%;
 	margin-left:10%;
 }
@@ -429,6 +429,7 @@ h1{
 	padding-left:10%;
 	padding-right:10%;
 	padding-top:5%;
+	margin-bottom: 17%;
 }
 
 .ww{
