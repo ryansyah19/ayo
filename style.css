@@ -262,13 +262,19 @@ h1{
 	display:inline-block;
     font-weight: 900;
     font-family: 'Montserrat', bold;
-    width: 60%;
+    width: 50%;
     text-align: left;
 }
 
 .ab p{
 	display:inline-block;
-	margin-left:26px;
+	margin-left:5px;
+}
+
+.ab h6{
+	font-size:14px;
+	display:inline-block;
+	margin-left:-1px;
 }
 
 .ac {
