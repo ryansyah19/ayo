@@ -103,8 +103,9 @@ h1{
     margin-bottom:30px;
 }
 
-.header img{
-	width:100%;
+.header img {
+    width: 131%;
+    margin-top: 7px;
 }
 
 .satu{
@@ -114,6 +115,7 @@ h1{
 
 .satup{
 	padding-left:10%;
+	padding-right:10%;
 	padding-top:5%;
 }
 
@@ -140,7 +142,11 @@ h1{
 }
 
 .more :hover{
-	border-color:none;
+	border-color:#fff;
+}
+
+.mora :hover{
+	border:2px solid #fff;
 }
 
 .btn-primary {
@@ -153,15 +159,17 @@ h1{
 
 .btn-primary:hover{
 	background-color:#af4800;
-	border:none;
+	border:#fff;
 }
 
 .btn-primary:active:hover{
 	background-color:#af4800;
+	border:#fff;
 }
 
 .btn-primary:focus{
-	background-color:#f9c00c;
+	background-color:#af4800;
+	border:#fff;
 }
 
 .more a{
@@ -173,6 +181,10 @@ h1{
 .more{
 	padding-bottom:80px;
 	padding-left:0px;
+}
+
+.ww p{
+	width:115%;
 }
 
 .aa h2,h3{
@@ -203,7 +215,6 @@ h1{
 	
 	display:inline;
 	border-right:2px;
-	border-color:none;
 	padding-top: 50px;
     margin-left: 170px;
 }
@@ -293,12 +304,12 @@ h1{
 }
 
 .more :hover{
-	border-color:none;
+	border:2px solid #fff;
 }
 
 .btin-primary {
     color: #fff;
-    border-color: #fff;
+    border:2px solid #fff;
     font-family: 'Montserrat', sans-serif;
 	width:300px;
 	background-color:#e6660c;
@@ -307,7 +318,7 @@ h1{
 
 .btin-primary:hover{
 	background-color:#e6660c;
-	border:none;
+	border:2px solid #e6660c;
 	color:#fff;
 }
 
@@ -377,7 +388,7 @@ h1{
 }
 
 .mori :hover{
-	border-color:none;
+	border:2px solid #fff;
 }
 
 .btan-primary {
@@ -393,7 +404,7 @@ h1{
 
 .btan-primary:hover{
 	background-color:#e6660c;
-	border:none;
+	border:2px solid #e6660c;
 	color:#fff;
 }
 
@@ -444,6 +455,20 @@ h1{
 
 .ww img{
 	margin-top:20px;
+}
+
+.navbar-toggle {
+    position: relative;
+    top: 1em;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 @media (max-width:1360px){
@@ -532,6 +557,20 @@ h1{
 }
 }
 
+@media (max-width: 904px){
+	.konten1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+}
+
+@media (max-width:878px){
+	.konten1 h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+}
+
 @media (max-width: 849px){
 	.konten1 {
     width: 45%;
@@ -573,12 +612,24 @@ h1{
 }
 
 @media (max-width: 811px){
+	
+	.konten1 h1 {
+    font-size: 21px;
+    font-weight: 500;
+}
 	.konten1 {
     width: 40%;
     display: inline-block;
     border: 2px solid #cbcaca;
     margin-right: 31px;
     margin-top: 4%;
+}
+}
+
+@media (max-width: 796px){
+	.konten1 h1 {
+    font-size: 20px;
+    font-weight: 500;
 }
 }
 
@@ -593,13 +644,24 @@ h1{
 }
 
 @media (max-width:767px){
+	
+	.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    padding: 18px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 	.header img {
     width: 100%;
     margin-left: 0px;
 }
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
-	margin-top:20%;
+	margin-top:10%;
 }
 	
 }
@@ -646,6 +708,13 @@ h1{
 
 }
 
+@media (max-width: 759px){
+	.konten1 h1 {
+    font-size: 19px;
+    font-weight: 500;
+}
+}
+
 @media (max-width:725px){
 	.konten1 {
     width: 44%;
@@ -657,6 +726,12 @@ h1{
 }
 
 @media (max-width:661px){
+	
+	.konten1 h1 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
 	.konten1 {
     width: 38%;
     display: inline-block;
@@ -708,9 +783,18 @@ h1{
     width: 50%;
     float: left;
 }
+
+	.konten1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
 }
 
 @media (max-width:530px){
+	
+		.ww p{
+	width:81%;
+}
 	.ww {
     width: 100%;
     float: left;
@@ -730,10 +814,18 @@ h1{
 @media (max-width:432px){
 	
 	.more {
-    padding-bottom: 80px;
+    padding-bottom: 25px;
     padding-left: 0px;
     text-align: center;
     width: 100%;
+}
+
+	.bor {
+    display: inline;
+    border-right: 2px solid #cd6913;
+    padding-top: 75px;
+    margin-left: 170px;
+	display:none;
 }
 
 
@@ -776,6 +868,14 @@ h1{
 
 
 @media (max-width:320px){
+	
+	.bor {
+    display: inline;
+    border-right: 2px solid #cd6913;
+    padding-top: 75px;
+    margin-left: 170px;
+	display:none;
+}
 	.mora a {
     width: 230px;
     padding: 15px;

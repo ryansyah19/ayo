@@ -101,8 +101,13 @@ h1{
     margin-bottom:30px;
 }
 
-.header img{
-	width:100%;
+.header img {
+    width: 131%;
+    margin-top: 7px;
+}
+
+.mora :hover{
+	border:2px solid #fff;
 }
 
 .satu{
@@ -248,13 +253,25 @@ h1{
 
 .ab p{
 	display: inline-block;
-    margin-left: 25px;
+    margin-left: 24px;
     font-size: 15px;
 }
 
 .ac {
 	display:inline-block;
 	margin-right: 36px;
+}
+
+.fa-facebook{
+	float:left;
+}
+
+.fa-twitter{
+	float:left;
+}
+
+.ww p{
+	width:115%;
 }
 
 .konten1 {
@@ -298,7 +315,6 @@ h1{
 
 .btin-primary {
     color: #fff;
-    border-color: #fff;
     font-family: 'Montserrat', sans-serif;
 	width:300px;
 	background-color:#e6660c;
@@ -307,7 +323,7 @@ h1{
 
 .btin-primary:hover{
 	background-color:#e6660c;
-	border:none;
+	border: 2px solid #fff;
 	color:#fff;
 }
 
@@ -562,7 +578,7 @@ h1{
 
 .mori{
 	float:right;
-	padding-left:0px;
+	padding-left:25px;
 	width:22%;
 	margin-top:-3%;
 	margin-bottom:4%;
@@ -591,7 +607,28 @@ h1{
 	margin-top:20px;
 }
 
+.navbar-toggle {
+    position: relative;
+    top: 1em;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
 @media (max-width:1360px){
+	
+	.ab p{
+	display: inline-block;
+    margin-left: 60px;
+    font-size: 15px;
+}
+
 	.ap {
     display: inline-block;
     width: 70%;
@@ -656,7 +693,21 @@ h1{
 }
 }
 
+@media (max-width: 1214px){
+	.ab p{
+	display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+}
+}
+
 @media (max-width: 1208px){
+	
+	.ab p {
+    display: inline-block;
+    margin-left: 161px;
+    font-size: 15px;
+}
 	
 	.tab{
 	padding-top:8%;
@@ -685,6 +736,12 @@ h1{
 
 
 @media (max-width:1168px){
+	
+	.ab p {
+    display: inline-block;
+    margin-left: 115px;
+    font-size: 15px;
+}
 	.ap {
     display: inline-block;
     width: 80%;
@@ -700,6 +757,13 @@ h1{
 }
 
 @media (max-width:1024px){
+	
+	.ab p {
+    display: inline-block;
+    margin-left: 78px;
+    font-size: 15px;
+}
+
 	.ap {
     display: inline-block;
     width: 100%;
@@ -717,6 +781,13 @@ h1{
 
 
 @media (max-width:907px){
+	
+	.ab p {
+    display: inline-block;
+    margin-left: 61px;
+    font-size: 15px;
+}
+
 	.header img{
 	width:100%;
 	margin-left:215%;
@@ -790,7 +861,7 @@ h1{
 	
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
-	margin-top:20%;
+	margin-top:10%;
 }
 }
 
@@ -836,7 +907,37 @@ h1{
 
 }
 
+@media (max-width: 738px){
+	.ab p {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 709px){
+	.ab p {
+    display: inline-block;
+    margin-left: 41px;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 685px){
+	.ab p {
+    display: inline-block;
+    margin-left: 31px;
+    font-size: 15px;
+}
+}
+
 @media (max-width: 646px){
+	
+	.ab p {
+    display: inline-block;
+    margin-left: 65px;
+    font-size: 15px;
+}
 	
 	.konten1 {
     width: 60%;
@@ -867,6 +968,14 @@ h1{
 }
 }
 
+@media (max-width: 622px){
+	.ab p {
+    display: inline-block;
+    margin-left: 34px;
+    font-size: 15px;
+}
+}
+
 @media (max-width: 591px){
 	.konten1 {
     width: 60%;
@@ -882,10 +991,22 @@ h1{
 }
 }
 
+@media (max-width:560px){
+	.ab p {
+    display: inline-block;
+    margin-left: 23px;
+    font-size: 15px;
+}
+}
+
 @media (max-width:530px){
 	.ww {
     width: 100%;
     float: left;
+}
+
+	.ww p{
+	width:81%;
 }
 
 	.konten1 {
@@ -956,7 +1077,20 @@ h1{
 }
 }
 
+@media (max-width: 360px){
+	.ab p {
+    display: inline-block;
+    margin-left: 11px;
+    font-size: 15px;
+}
+}
 @media (max-width: 355px){
+	
+	.ab p {
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 15px;
+}
 	.konten1 {
     width: 80%;
     display: inline-block;
