@@ -122,9 +122,9 @@ h1{
 .satu h1{
 	color:#fff;
 	font-weight: 700;
-    width: 577px;
+    width: 586px;
     font-size: 45px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', bold;
 	text-align:left;
 	padding:0px;
 }
@@ -220,7 +220,9 @@ h1{
 }
 
 .aa h2{
-	font-size:35px;
+	font-size: 31px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .aa h3{
@@ -258,6 +260,10 @@ h1{
 .ab h2{
 	font-size:18px;
 	display:inline-block;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 60%;
+    text-align: left;
 }
 
 .ab p{
@@ -279,8 +285,9 @@ h1{
 }
 
 .konten1 h1{
-	font-size:21px;
-	font-weight:500;
+	font-size:20px;
+	font-weight:900;
+	font-family: 'Montserrat', bold;
 }
 
 .konten1 hr{
@@ -506,8 +513,11 @@ h1{
 @media (max-width: 1208px){
 	
 	.konten1 h1 {
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 80%;
+    text-align: left;
 }
 	
 	.ww {
@@ -523,13 +533,31 @@ h1{
 }
 }
 
-
+@media (max-width: 1183px){
+	.konten1 h1 {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 80%;
+    text-align: left;
+}
+}
 
 @media (max-width:1168px){
 	.ap {
     display: inline-block;
     width: 80%;
     background-color: #aa33017a;
+}
+}
+
+@media (max-width: 1133px){
+	.konten1 h1 {
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 90%;
+    text-align: left;
 }
 }
 
@@ -543,12 +571,33 @@ h1{
 
 @media (max-width:1101px){
 	.konten1 h1 {
-    font-size: 26px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 90%;
+    text-align: left;
 }
 }
 
+@media (max-width: 1055px){
+	.konten1 h1 {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
+}
+}
 
+@media (max-width: 912px){
+	.konten1 h1 {
+    font-size: 21px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
+}
+}
 
 @media (max-width:907px){
 	.header img {
@@ -559,15 +608,21 @@ h1{
 
 @media (max-width: 904px){
 	.konten1 h1 {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
 }
 }
 
 @media (max-width:878px){
 	.konten1 h1 {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
 }
 }
 
@@ -614,8 +669,11 @@ h1{
 @media (max-width: 811px){
 	
 	.konten1 h1 {
-    font-size: 21px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
 }
 	.konten1 {
     width: 40%;
@@ -628,8 +686,11 @@ h1{
 
 @media (max-width: 796px){
 	.konten1 h1 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
 }
 }
 
@@ -666,6 +727,15 @@ h1{
 	
 }
 
+@media (max-width:763px){
+	.konten1 h1 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 110%;
+    text-align: left;
+}
+}
 @media (max-width:764px){
 
 	.satu p {
@@ -710,8 +780,21 @@ h1{
 
 @media (max-width: 759px){
 	.konten1 h1 {
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 110%;
+    text-align: left;
+}
+}
+
+@media (max-width: 735px){
+	.konten1 h1 {
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 110%;
+    text-align: left;
 }
 }
 
@@ -729,7 +812,10 @@ h1{
 	
 	.konten1 h1 {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 110%;
+    text-align: left;
 }
 
 	.konten1 {
@@ -786,7 +872,10 @@ h1{
 
 	.konten1 h1 {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 900;
+    font-family: 'Montserrat', bold;
+    width: 100%;
+    text-align: left;
 }
 }
 
