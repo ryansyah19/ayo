@@ -11,6 +11,8 @@ hr{
 h1{
 	padding-top:4%;
 	padding-bottom:3%;
+	font-family: 'Montserrat', bold;
+	font-weight:700;
 }
 
 /*Navigation style*/
@@ -480,11 +482,13 @@ h1{
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #555;
+    color: #000;
     cursor: default;
     background-color: #fff;
 	border:none;
     border-bottom: 3px solid #e6660c;
+	font-family:font-family: 'Montserrat', bold;
+	font-weight:600;
 }
 
 
@@ -501,7 +505,7 @@ h1{
 
 .empat h1{
 	display: inline-block;
-    font-size: 25px;
+    font-size: 22px;
     padding-bottom: 0px;
 }
 
